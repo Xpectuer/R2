@@ -67,8 +67,9 @@ def parse(input: str)-> AST_Node:
 
     return root.children[0]
     
-
-
+# recursive ver.
+def parse_r(input: str, root: AST_Node, i: int)-> AST_Node:
+    pass
 '''
                 - +
                 -- 1 2
